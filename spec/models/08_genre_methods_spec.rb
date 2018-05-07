@@ -1,4 +1,4 @@
-describe 'Genre Methods' do
+puts describe 'Genre Methods' do
   before do
     @genre = Genre.create(name: "Hip Hop")
     @genre.artists << Artist.create(name: "MJ")
