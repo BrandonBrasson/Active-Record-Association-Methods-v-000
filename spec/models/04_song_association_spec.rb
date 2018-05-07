@@ -11,7 +11,7 @@ puts describe 'Song Associations' do
     expect(Song.find_by(name: "Forever").genre).to eq(genre)
   end
 
-puts  it 'can have an artist' do
+  it 'can have an artist' do
     artist = Artist.create(name: "Prince")
     @song.artist = artist
     @song.save
